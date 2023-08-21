@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Britlex</title>
+    <link rel="icon" href="./images/logo.png" type="image/x-con" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container header__container">
+        <a class="link logo" href="./index.html">Brit<span class="logo--accent">lex</span></a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a class="link nav__link" href="#">Home</a></li>
+            <li><a class="link nav__link" href="#skills">Skills</a></li>
+            <li><a class="link nav__link" href="#about">About Us</a></li>
+            <li><a class="link nav__link" href="#pricing">Pricing</a></li>
+            <li><a class="link nav__link" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <button
+          class="button-menu__open js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          type="button"
+        >
+          <svg
+            class="button-menu__icon--open"
+            width="40"
+            height="40"
+            aria-label="Перемикач мобільного меню"
+          >
+            <use class="icon-menu" href="./images/sprite.svg#burger-menu"></use>
+          </svg>
+        </button>
+        <button class="button button__header" type="button">Let’s Talk</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero -->
+
+      <section class="section hero">
+        <div class="container hero__container">
+          <div class="container--first">
+            <h1 class="hero__title">Learn Any Foreign Language</h1>
+            <svg class="svg-bulb" width="86px" height="86px">
+              <use href="./images/sprite.svg#bulb-icon"></use>
+            </svg>
+            <p class="hero__text">
+              With our teachers who write a program for each student, you will be able to make your
+              first sketch after the first lesson.
+            </p>
+
+            <button class="button button__hero" type="button">Get started</button>
+          </div>
+          <!-- hero-image -->
+
+          <div class="container--second">
+            <img class="hero-image" src="./images/learning.jpg" alt="learning" />
+          </div>
+        </div>
+      </section>
+
+      <!-- skils -->
+
+      <section class="section skils" id="skills">
+        <div class="container">
+          <h2 class="title skils__title">Skills</h2>
+          <ul class="parent">
+            <li class="link card-skils card-skils__speaking">
+              <img class="image" src="./images/sharedgoals.png " width="390" alt="shared-goals" />
+              <div class="card-skils__container">
+                <h3 class="card-skils__subtitle">Speaking</h3>
+                <p class="card-skils__text">
+                  Improve your English skills and confidence. Live classes and interactive lessons
+                  online. 20% extra free for a limited time only
+                </p>
+                <p class="card-skils__text">
+                  Learn English online and improve your skills through our high-quality courses and
+                  resources – all designed for adult language learners.
+                </p>
+                <button class="button button__skils button__skils--first" type="button">
+                  Learn more
+                </button>
+              </div>
+            </li>
+
+            <li class="link card-skils card-skils__writing">
+              <img
+                class="image image--padding"
+                src="./images/typewriter.png"
+                width="390"
+                alt="typewriter"
+              />
+              <div class="card-skils__container">
+                <h3 class="card-skils__subtitle">Writing</h3>
+                <p class="card-skils__text">
+                  One of the most important and extensive areas of natural science, the science that
+                  studies substances, also their composition
+                </p>
+                <button class="button button__skils button__skils--second" type="button">
+                  Learn more
+                </button>
+              </div>
+            </li>
+
+            <li class="link card-skils card-skils__reading">
+              <img class="image" src="./images/bookshelves.png" width="390" alt="bookshelves" />
+              <div class="card-skils__container">
+                <h3 class="card-skils__subtitle">Reading</h3>
+                <p class="card-skils__text">
+                  Perception and response actions of the user resulting from the use and/or upcoming
+                  use of the product, system or service
+                </p>
+                <button class="button button__skils button__skils--third" type="button">
+                  Learn more
+                </button>
+              </div>
+            </li>
+
+            <li class="link card-skils card-skils__listening">
+              <img class="image" src="./images/podcast.png" width="408" alt="podcast" />
+              <div class="card-skils__container">
+                <h3 class="card-skils__subtitle">Listening</h3>
+                <p class="card-skils__text">
+                  Here you can find activities to practise your listening skills. Listening will
+                  help you to improve your understanding
+                </p>
+                <button class="button button__skils button__skils--fourth" type="button">
+                  Learn more
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- about-us -->
+
+      <section class="section about-us" id="about">
+        <div class="container about-us__container">
+          <div class="about-us__image">
+            <img src="./images/business.jpg" width="540" alt="business" />
+          </div>
+          <div class="about-us__container--before">
+            <h2 class="title about-us__title">About Us</h2>
+            <p class="about-us__text">
+              The model offers a framework for discussing problems related to the user's experience,
+              as well as possible ways and means of solving them. Application development begins at
+              the top level (strategy), where the future software product is described quite
+              abstractly from the point of view of the expectations of both users and the customer.
+            </p>
+            <ul class="feature">
+              <li class="link">
+                <p class="feature__number">800</p>
+                <p class="feature__about">Pupils</p>
+              </li>
+
+              <li class="link">
+                <p class="feature__number">18</p>
+                <p class="feature__about">Teachers</p>
+              </li>
+
+              <li class="link">
+                <p class="feature__number">6</p>
+                <p class="feature__about">Foreign languages</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- pricing -->
+
+      <section class="section pricing" id="pricing">
+        <div class="container">
+          <h2 class="title">Pricing</h2>
+          <ul class="pricing__container">
+            <li class="link pricing__item">
+              <div class="pricing__image">
+                <img
+                  class="pricing-img"
+                  src="./images/online.jpg"
+                  width="426"
+                  alt="Self-study online course"
+                />
+              </div>
+
+              <div class="pricing__content">
+                <h3 class="pricing__subtitle">Self-study online course</h3>
+                <p class="pricing__text">
+                  Start learning English online in live classes with qualified EC teachers and
+                  students from all over the world.
+                </p>
+                <p class="price price--first">
+                  <span class="price__after">&pound;5.99</span
+                  ><span class="price__before"> per month</span>
+                </p>
+              </div>
+            </li>
+
+            <li class="link pricing__item">
+              <div class="pricing__image">
+                <img
+                  class="pricing-img"
+                  src="./images/lesson.jpg"
+                  width="426"
+                  alt="Live online classes"
+                />
+              </div>
+
+              <div class="pricing__content">
+                <h3 class="pricing__subtitle pricing__subtitle--width">Live online classes</h3>
+                <p class="pricing__text">
+                  Interactive group classes with expert teachers. Free 7-day trial
+                </p>
+                <p class="price price--second">
+                  <span class="price__after">&pound;12.99</span
+                  ><span class="price__before"> per month</span>
+                </p>
+              </div>
+            </li>
+
+            <li class="link pricing__item">
+              <div class="pricing__image">
+                <img
+                  class="pricing-img"
+                  src="./images/webinar.jpg"
+                  width="426"
+                  alt="Personal Tuition"
+                />
+              </div>
+
+              <div class="pricing__content">
+                <h3 class="pricing__subtitle pricing__subtitle--width">Personal Tuition</h3>
+                <p class="pricing__text">
+                  Online one-to-one English tutoring – enjoy our first session for only $1
+                </p>
+                <p class="price price--third">
+                  <span class="price__after">&pound;12.99</span
+                  ><span class="price__before"> per month</span>
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- contact-us -->
+
+      <section class="section contact-us" id="contacts">
+        <div class="container contact-us__container">
+          <div class="contact-us__content">
+            <div class="contact-us__content--widtn">
+              <h2 class="title contact-us__title">Contact Us</h2>
+              <img class="contact-us__image" src="./images/contact.jpg" width="425" alt="contact" />
+              <p class="contact-us__text">
+                Discover your current English level by taking our free online English test. Sign up
+                to our newsletter for learning tips and free resources
+              </p>
+            </div>
+
+            <form class="form">
+              <label class="form__label" for="email"></label>
+              <input
+                class="form__email"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Your E-mail"
+              />
+              <button class="button__form" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <a class="link logo footer__logo" href="./index.html"
+          >Brit<span class="logo--accent">lex</span></a
+        >
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="link footer__info" href="#">Terms and Conditions</a>
+          </li>
+          <li class="footer__item"><a class="link footer__info" href="#">Privacy Policy</a></li>
+          <li class="footer__item"><a class="link footer__info" href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- mobile-menu -->
+
+    <div class="container menu-container js-menu-container" id="mobile-menu">
+      <div>
+        <div class="menu-container__header">
+          <a class="link logo" href="./index.html">Brit<span class="logo--accent">lex</span></a>
+          <button class="button-menu__close js-close-menu" type="button">
+            <svg
+              class="button-menu__icon button-menu__icon--close"
+              width="40"
+              height="40"
+              aria-label="Перемикач мобільного меню"
+            >
+              <use class="icon-cross" href="./images/sprite.svg#cross"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="nav-menu__container">
+          <nav class="nav-menu">
+            <ul class="nav-menu__list">
+              <li><a class="link nav-menu__link" href="#">Home</a></li>
+              <li><a class="link nav-menu__link" href="#skills">Skills</a></li>
+              <li><a class="link nav-menu__link" href="#about">About Us</a></li>
+              <li><a class="link nav-menu__link" href="#pricing">Pricing</a></li>
+              <li><a class="link nav-menu__link" href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+
+          <button class="button button__menu" type="button">Let’s Talk</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+.header__container {
+  display: flex;
+  // padding-top: 55px;
+  align-items: center;
+
+  @media screen and(max-width: 574px) {
+    padding-top: 36px;
+    padding-bottom: 29px;
+  }
+  @media screen and (min-width: 575px) {
+    padding-top: 39px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 39px;
+  }
+  @media screen and (min-width: 992px) {
+    padding-top: 30px;
+  }
+  @media screen and (min-width: 1378px) {
+    padding-top: 63px;
+  }
+}
